@@ -68,7 +68,7 @@
                 alert ('Please Enter a valid City Name')
             }
             document.getElementById('hidden01').classList.remove('hidden');
-            axios.get(`http://api.aladhan.com/v1/calendarByCity?city=${input2}&country=${input1}&method=2&month=07&year=2022`)
+            axios.get(`https://api.aladhan.com/v1/calendarByCity?city=${input2}&country=${input1}&method=2&month=07&year=2022`)
             .then(function (response) {
                 // handle success
                 let war1 =
