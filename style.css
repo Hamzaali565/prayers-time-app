@@ -1,0 +1,81 @@
+table{
+    /* border: 1px solid black; */
+    /* border-spacing: 10px; */
+    /* padding: 20px; */
+    display: flex;
+    justify-content: center;
+    margin-top: 70px;
+
+}
+.hidden{
+    visibility: hidden;
+}
+body{
+background-image:url(935684.webp);
+}
+input{
+    padding: 10px;
+    border: 5px solid blue;
+    border-radius: 15px;
+}
+button 
+{
+    margin-left: 10px;
+}
+td{
+    border: 5px solid blue;
+font-size: 20px;
+    border-spacing: 80px;
+padding: 10px;
+font-weight: bold;
+/* margin-left: 200px; */
+/* display: flex; */
+/* flex-direction: column; */
+/* justify-content: center; */
+}
+form{
+display: flex;
+justify-content: center;
+margin-top: 40px;
+}
+#input1{
+    margin-right: 30px;
+}
+@media screen and (min-width: 0px) {
+    input{width: 20px;}
+}
+@media screen and (min-width: 159px) {
+    input{width: 60px;}
+}
+@media screen and (min-width: 209px) {
+    input{width: 80px;}
+}
+@media screen and (min-width: 250px) {
+    input{width: 100px;}
+}
+@media screen and (min-width: 313px) {
+    input{width: 130px;}
+}
+@media screen and (min-width: 347px) {
+    input{width: 150px;}
+}
+@media screen and (min-width: 385px) {
+    input{width: 170px;}
+}
+
+@media screen and (min-width: 420px) {
+    input{width: 300px;}
+}
+
+@media screen and (min-width: 770px) {
+    input{width: 400px;}
+}
+
+@media screen and (min-width: 1020px) {
+    input{width: 400px;}
+}
+@media screen and (min-width: 1440px) {
+    input{width: 400px;}
+}
+
+
